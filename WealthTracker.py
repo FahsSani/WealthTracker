@@ -6,8 +6,7 @@ import locale
 import time
 import schedule
 import os
-
-
+import re
 
 # Set the locale to the user's default for displaying numbers with thousand separator
 locale.setlocale(locale.LC_ALL, '')
@@ -26,8 +25,8 @@ def load_data():
             "assets": {
                 "Cash": 0,
                 "Stocks": 0,
-                "Car": 0,
-                "Home": 0
+                "Bank": 0,
+                "Crypto": 0
             },
             "liabilities": {
                 "Credit Card Debt": 0,
@@ -82,7 +81,6 @@ def update_and_reschedule(root):
     update_bitcoin_data()
     display_data()
     root.after(10000, update_and_reschedule, root)  # Reschedule the function after 10000 milliseconds (10 seconds)
-
 
 
 # Function to handle adding a new sub-account
@@ -226,11 +224,6 @@ def save_data_to_json(data):
         json.dump(final_data, file, indent=4)
 
     return json_file
-
-
-
-
-import re
 
 def compare_historical_data():
     # Open a file dialog to select multiple files for comparison
