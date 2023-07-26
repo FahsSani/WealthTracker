@@ -2,7 +2,7 @@ Wealth Tracker - README
 Description
 The Wealth Tracker is a simple Python application that allows users to track their financial assets and liabilities. It provides a graphical user interface (GUI) built with Tkinter to display and manage the financial data. The application saves the data in a JSON file, which can be loaded later for comparison and historical tracking.
 
-Requirements
+*Requirements
 Python 3.x
 json module (included with Python)
 requests module (install via pip install requests)
@@ -12,20 +12,21 @@ time module (included with Python)
 schedule module (install via pip install schedule)
 os module (included with Python)
 re module (included with Python)
-Getting Started
-Install the required Python modules if you haven't already. You can do this via pip:
 
-Copy code
+
+*Getting Started
+
+Install the required Python modules if you haven't already. You can do this via pip:
 pip install requests schedule
+
 Download the code and save it in a .py file (e.g., wealth_tracker.py).
 
 Run the Python script using the following command in your terminal or command prompt:
-
-Copy code
 python wealth_tracker.py
+
 The Wealth Tracker GUI will open, and you can start using the application.
 
-How to Use the Application
+*How to Use the Application
 The application displays your financial assets and liabilities, which you can modify and track over time.
 
 To add a new sub-account (asset or liability):
@@ -66,11 +67,13 @@ Click on "File" in the menu.
 Choose "Compare Historical Data."
 Select the JSON files you want to compare when prompted. The files should be located in the "HistoricalData" folder within the application's directory.
 A new window will display a comparison of the financial data from the selected files.
-Note
+
+
+*Note
 The application fetches the current Bitcoin price from an external API (CoinGecko). It is recommended to have an internet connection for accurate Bitcoin value updates.
 The Bitcoin price is also stored locally in the bitcoin_data.json file, so the application can display the last fetched price when there's a connection issue.
 Contributing
 Contributions to the Wealth Tracker are welcome! Please feel free to open issues for bug reports, suggestions, or new features.
 
-License
+*License
 This project is licensed under the MIT License. See the LICENSE file for more details.
