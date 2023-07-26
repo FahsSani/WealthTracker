@@ -1,8 +1,8 @@
-Wealth Tracker - README
+#Wealth Tracker - README
 Description
 The Wealth Tracker is a simple Python application that allows users to track their financial assets and liabilities. It provides a graphical user interface (GUI) built with Tkinter to display and manage the financial data. The application saves the data in a JSON file, which can be loaded later for comparison and historical tracking.
 
-*Requirements
+#Requirements
 Python 3.x
 json module (included with Python)
 requests module (install via pip install requests)
