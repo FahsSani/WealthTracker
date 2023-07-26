@@ -1,4 +1,7 @@
-# Unofficial API docs for the Wealthsimple Trade API
+# Wealth Tracker
+
+The Wealth Tracker is a simple Python application that allows users to track their financial assets and liabilities. It provides a graphical user interface (GUI) built with Tkinter to display and manage the financial data. The application saves the data in a JSON file, which can be loaded later for comparison and historical tracking.
+
 
 ## Notes
 
