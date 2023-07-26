@@ -6,13 +6,21 @@ The Wealth Tracker is a simple Python application that allows users to track the
 ## Requirements
 
 Python 3.x
+
 json module (included with Python)
+
 requests module (install via pip install requests)
+
 tkinter module (included with Python)
+
 locale module (included with Python)
+
 time module (included with Python)
+
 schedule module (install via pip install schedule)
+
 os module (included with Python)
+
 re module (included with Python)
 
 ## Getting Started
